@@ -1,0 +1,14 @@
+PODS:
+  - DynUIFramework (0.1.0)
+
+DEPENDENCIES:
+  - DynUIFramework (from `../`)
+
+EXTERNAL SOURCES:
+  DynUIFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DynUIFramework: fbb2b5b96fd43317f4cbf9ccb2073b380ac14162
+
+COCOAPODS: 0.36.0

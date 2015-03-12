@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		449F2BF81AB1FFDE00560CEA /* NSObject+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BA51AB1FFDE00560CEA /* NSObject+DynUI.m */; };
+		449F2BF91AB1FFDE00560CEA /* NSString+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BA71AB1FFDE00560CEA /* NSString+DynUI.m */; };
+		449F2BFA1AB1FFDE00560CEA /* UIBezierPath+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BA91AB1FFDE00560CEA /* UIBezierPath+DynUI.m */; };
+		449F2BFB1AB1FFDE00560CEA /* UIColor+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BAB1AB1FFDE00560CEA /* UIColor+DynUI.m */; };
+		449F2BFC1AB1FFDE00560CEA /* UIImage+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BAD1AB1FFDE00560CEA /* UIImage+DynUI.m */; };
+		449F2BFD1AB1FFDE00560CEA /* UILabel+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BAF1AB1FFDE00560CEA /* UILabel+DynUI.m */; };
+		449F2BFE1AB1FFDE00560CEA /* UINavigationBar+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BB11AB1FFDE00560CEA /* UINavigationBar+DynUI.m */; };
+		449F2BFF1AB1FFDE00560CEA /* UIPopoverController+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BB31AB1FFDE00560CEA /* UIPopoverController+DynUI.m */; };
+		449F2C001AB1FFDE00560CEA /* UITableView+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BB51AB1FFDE00560CEA /* UITableView+DynUI.m */; };
+		449F2C011AB1FFDE00560CEA /* UITableViewCell+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BB71AB1FFDE00560CEA /* UITableViewCell+DynUI.m */; };
+		449F2C021AB1FFDE00560CEA /* UITextField+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BB91AB1FFDE00560CEA /* UITextField+DynUI.m */; };
+		449F2C031AB1FFDE00560CEA /* UIView+DynUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BBB1AB1FFDE00560CEA /* UIView+DynUI.m */; };
+		449F2C041AB1FFDE00560CEA /* DYNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BBE1AB1FFDE00560CEA /* DYNManager.m */; };
+		449F2C051AB1FFDE00560CEA /* DYNRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BC01AB1FFDE00560CEA /* DYNRenderer.m */; };
+		449F2C061AB1FFDE00560CEA /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BC51AB1FFDE00560CEA /* JRSwizzle.m */; };
+		449F2C071AB1FFDE00560CEA /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BC71AB1FFDE00560CEA /* KGNoise.m */; };
+		449F2C081AB1FFDE00560CEA /* UIBezierPath+SVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BC91AB1FFDE00560CEA /* UIBezierPath+SVG.m */; };
+		449F2C091AB1FFDE00560CEA /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BCB1AB1FFDE00560CEA /* UIImage+ImageEffects.m */; };
+		449F2C0A1AB1FFDE00560CEA /* UIView+DPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BCD1AB1FFDE00560CEA /* UIView+DPTools.m */; };
+		449F2C0B1AB1FFDE00560CEA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 449F2BCE1AB1FFDE00560CEA /* Info.plist */; };
+		449F2C0C1AB1FFDE00560CEA /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = 449F2BD11AB1FFDE00560CEA /* icons.json */; };
+		449F2C0D1AB1FFDE00560CEA /* DYNBackgroundStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BD41AB1FFDE00560CEA /* DYNBackgroundStyle.m */; };
+		449F2C0E1AB1FFDE00560CEA /* DYNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BD61AB1FFDE00560CEA /* DYNColor.m */; };
+		449F2C0F1AB1FFDE00560CEA /* DYNControlStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BD81AB1FFDE00560CEA /* DYNControlStyle.m */; };
+		449F2C101AB1FFDE00560CEA /* DYNImageStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BDA1AB1FFDE00560CEA /* DYNImageStyle.m */; };
+		449F2C111AB1FFDE00560CEA /* DYNInnerBorderStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BDC1AB1FFDE00560CEA /* DYNInnerBorderStyle.m */; };
+		449F2C121AB1FFDE00560CEA /* DYNPopoverStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BDE1AB1FFDE00560CEA /* DYNPopoverStyle.m */; };
+		449F2C131AB1FFDE00560CEA /* DYNShadowStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BE01AB1FFDE00560CEA /* DYNShadowStyle.m */; };
+		449F2C141AB1FFDE00560CEA /* DYNSliderStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BE21AB1FFDE00560CEA /* DYNSliderStyle.m */; };
+		449F2C151AB1FFDE00560CEA /* DYNStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BE41AB1FFDE00560CEA /* DYNStyle.m */; };
+		449F2C161AB1FFDE00560CEA /* DYNStyleParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BE61AB1FFDE00560CEA /* DYNStyleParameters.m */; };
+		449F2C171AB1FFDE00560CEA /* DYNTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BE81AB1FFDE00560CEA /* DYNTextStyle.m */; };
+		449F2C181AB1FFDE00560CEA /* DYNViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BEA1AB1FFDE00560CEA /* DYNViewStyle.m */; };
+		449F2C191AB1FFDE00560CEA /* DYNBlurredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BED1AB1FFDE00560CEA /* DYNBlurredView.m */; };
+		449F2C1A1AB1FFDE00560CEA /* DYNCustomSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BEF1AB1FFDE00560CEA /* DYNCustomSetting.m */; };
+		449F2C1B1AB1FFDE00560CEA /* DYNGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BF11AB1FFDE00560CEA /* DYNGradient.m */; };
+		449F2C1C1AB1FFDE00560CEA /* DYNIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BF31AB1FFDE00560CEA /* DYNIcons.m */; };
+		449F2C1D1AB1FFDE00560CEA /* DYNInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BF51AB1FFDE00560CEA /* DYNInsets.m */; };
+		449F2C1E1AB1FFDE00560CEA /* DYNPassThroughView.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F2BF71AB1FFDE00560CEA /* DYNPassThroughView.m */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		E589842E858764E161ED1ADE /* libPods-DynUIFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D174101F2959C51FEE34BA05 /* libPods-DynUIFramework.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16A502374EB076EA8BF7F30E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		449F2BA41AB1FFDE00560CEA /* NSObject+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DynUI.h"; sourceTree = "<group>"; };
+		449F2BA51AB1FFDE00560CEA /* NSObject+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DynUI.m"; sourceTree = "<group>"; };
+		449F2BA61AB1FFDE00560CEA /* NSString+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DynUI.h"; sourceTree = "<group>"; };
+		449F2BA71AB1FFDE00560CEA /* NSString+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DynUI.m"; sourceTree = "<group>"; };
+		449F2BA81AB1FFDE00560CEA /* UIBezierPath+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+DynUI.h"; sourceTree = "<group>"; };
+		449F2BA91AB1FFDE00560CEA /* UIBezierPath+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+DynUI.m"; sourceTree = "<group>"; };
+		449F2BAA1AB1FFDE00560CEA /* UIColor+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DynUI.h"; sourceTree = "<group>"; };
+		449F2BAB1AB1FFDE00560CEA /* UIColor+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DynUI.m"; sourceTree = "<group>"; };
+		449F2BAC1AB1FFDE00560CEA /* UIImage+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DynUI.h"; sourceTree = "<group>"; };
+		449F2BAD1AB1FFDE00560CEA /* UIImage+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DynUI.m"; sourceTree = "<group>"; };
+		449F2BAE1AB1FFDE00560CEA /* UILabel+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DynUI.h"; sourceTree = "<group>"; };
+		449F2BAF1AB1FFDE00560CEA /* UILabel+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DynUI.m"; sourceTree = "<group>"; };
+		449F2BB01AB1FFDE00560CEA /* UINavigationBar+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+DynUI.h"; sourceTree = "<group>"; };
+		449F2BB11AB1FFDE00560CEA /* UINavigationBar+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+DynUI.m"; sourceTree = "<group>"; };
+		449F2BB21AB1FFDE00560CEA /* UIPopoverController+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+DynUI.h"; sourceTree = "<group>"; };
+		449F2BB31AB1FFDE00560CEA /* UIPopoverController+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+DynUI.m"; sourceTree = "<group>"; };
+		449F2BB41AB1FFDE00560CEA /* UITableView+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DynUI.h"; sourceTree = "<group>"; };
+		449F2BB51AB1FFDE00560CEA /* UITableView+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DynUI.m"; sourceTree = "<group>"; };
+		449F2BB61AB1FFDE00560CEA /* UITableViewCell+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+DynUI.h"; sourceTree = "<group>"; };
+		449F2BB71AB1FFDE00560CEA /* UITableViewCell+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+DynUI.m"; sourceTree = "<group>"; };
+		449F2BB81AB1FFDE00560CEA /* UITextField+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DynUI.h"; sourceTree = "<group>"; };
+		449F2BB91AB1FFDE00560CEA /* UITextField+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DynUI.m"; sourceTree = "<group>"; };
+		449F2BBA1AB1FFDE00560CEA /* UIView+DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DynUI.h"; sourceTree = "<group>"; };
+		449F2BBB1AB1FFDE00560CEA /* UIView+DynUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DynUI.m"; sourceTree = "<group>"; };
+		449F2BBC1AB1FFDE00560CEA /* DYNDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNDefines.h; sourceTree = "<group>"; };
+		449F2BBD1AB1FFDE00560CEA /* DYNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNManager.h; sourceTree = "<group>"; };
+		449F2BBE1AB1FFDE00560CEA /* DYNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNManager.m; sourceTree = "<group>"; };
+		449F2BBF1AB1FFDE00560CEA /* DYNRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNRenderer.h; sourceTree = "<group>"; };
+		449F2BC01AB1FFDE00560CEA /* DYNRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNRenderer.m; sourceTree = "<group>"; };
+		449F2BC11AB1FFDE00560CEA /* DynUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynUI.h; sourceTree = "<group>"; };
+		449F2BC21AB1FFDE00560CEA /* DynUIFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynUIFramework.h; sourceTree = "<group>"; };
+		449F2BC41AB1FFDE00560CEA /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		449F2BC51AB1FFDE00560CEA /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		449F2BC61AB1FFDE00560CEA /* KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNoise.h; sourceTree = "<group>"; };
+		449F2BC71AB1FFDE00560CEA /* KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNoise.m; sourceTree = "<group>"; };
+		449F2BC81AB1FFDE00560CEA /* UIBezierPath+SVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+SVG.h"; sourceTree = "<group>"; };
+		449F2BC91AB1FFDE00560CEA /* UIBezierPath+SVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+SVG.m"; sourceTree = "<group>"; };
+		449F2BCA1AB1FFDE00560CEA /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		449F2BCB1AB1FFDE00560CEA /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		449F2BCC1AB1FFDE00560CEA /* UIView+DPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DPTools.h"; sourceTree = "<group>"; };
+		449F2BCD1AB1FFDE00560CEA /* UIView+DPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DPTools.m"; sourceTree = "<group>"; };
+		449F2BCE1AB1FFDE00560CEA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449F2BD11AB1FFDE00560CEA /* icons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = icons.json; sourceTree = "<group>"; };
+		449F2BD31AB1FFDE00560CEA /* DYNBackgroundStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNBackgroundStyle.h; sourceTree = "<group>"; };
+		449F2BD41AB1FFDE00560CEA /* DYNBackgroundStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNBackgroundStyle.m; sourceTree = "<group>"; };
+		449F2BD51AB1FFDE00560CEA /* DYNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNColor.h; sourceTree = "<group>"; };
+		449F2BD61AB1FFDE00560CEA /* DYNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNColor.m; sourceTree = "<group>"; };
+		449F2BD71AB1FFDE00560CEA /* DYNControlStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNControlStyle.h; sourceTree = "<group>"; };
+		449F2BD81AB1FFDE00560CEA /* DYNControlStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNControlStyle.m; sourceTree = "<group>"; };
+		449F2BD91AB1FFDE00560CEA /* DYNImageStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNImageStyle.h; sourceTree = "<group>"; };
+		449F2BDA1AB1FFDE00560CEA /* DYNImageStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNImageStyle.m; sourceTree = "<group>"; };
+		449F2BDB1AB1FFDE00560CEA /* DYNInnerBorderStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNInnerBorderStyle.h; sourceTree = "<group>"; };
+		449F2BDC1AB1FFDE00560CEA /* DYNInnerBorderStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNInnerBorderStyle.m; sourceTree = "<group>"; };
+		449F2BDD1AB1FFDE00560CEA /* DYNPopoverStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNPopoverStyle.h; sourceTree = "<group>"; };
+		449F2BDE1AB1FFDE00560CEA /* DYNPopoverStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNPopoverStyle.m; sourceTree = "<group>"; };
+		449F2BDF1AB1FFDE00560CEA /* DYNShadowStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNShadowStyle.h; sourceTree = "<group>"; };
+		449F2BE01AB1FFDE00560CEA /* DYNShadowStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNShadowStyle.m; sourceTree = "<group>"; };
+		449F2BE11AB1FFDE00560CEA /* DYNSliderStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNSliderStyle.h; sourceTree = "<group>"; };
+		449F2BE21AB1FFDE00560CEA /* DYNSliderStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNSliderStyle.m; sourceTree = "<group>"; };
+		449F2BE31AB1FFDE00560CEA /* DYNStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNStyle.h; sourceTree = "<group>"; };
+		449F2BE41AB1FFDE00560CEA /* DYNStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNStyle.m; sourceTree = "<group>"; };
+		449F2BE51AB1FFDE00560CEA /* DYNStyleParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNStyleParameters.h; sourceTree = "<group>"; };
+		449F2BE61AB1FFDE00560CEA /* DYNStyleParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNStyleParameters.m; sourceTree = "<group>"; };
+		449F2BE71AB1FFDE00560CEA /* DYNTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNTextStyle.h; sourceTree = "<group>"; };
+		449F2BE81AB1FFDE00560CEA /* DYNTextStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNTextStyle.m; sourceTree = "<group>"; };
+		449F2BE91AB1FFDE00560CEA /* DYNViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNViewStyle.h; sourceTree = "<group>"; };
+		449F2BEA1AB1FFDE00560CEA /* DYNViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNViewStyle.m; sourceTree = "<group>"; };
+		449F2BEC1AB1FFDE00560CEA /* DYNBlurredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNBlurredView.h; sourceTree = "<group>"; };
+		449F2BED1AB1FFDE00560CEA /* DYNBlurredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNBlurredView.m; sourceTree = "<group>"; };
+		449F2BEE1AB1FFDE00560CEA /* DYNCustomSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNCustomSetting.h; sourceTree = "<group>"; };
+		449F2BEF1AB1FFDE00560CEA /* DYNCustomSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNCustomSetting.m; sourceTree = "<group>"; };
+		449F2BF01AB1FFDE00560CEA /* DYNGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNGradient.h; sourceTree = "<group>"; };
+		449F2BF11AB1FFDE00560CEA /* DYNGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNGradient.m; sourceTree = "<group>"; };
+		449F2BF21AB1FFDE00560CEA /* DYNIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNIcons.h; sourceTree = "<group>"; };
+		449F2BF31AB1FFDE00560CEA /* DYNIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNIcons.m; sourceTree = "<group>"; };
+		449F2BF41AB1FFDE00560CEA /* DYNInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNInsets.h; sourceTree = "<group>"; };
+		449F2BF51AB1FFDE00560CEA /* DYNInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNInsets.m; sourceTree = "<group>"; };
+		449F2BF61AB1FFDE00560CEA /* DYNPassThroughView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYNPassThroughView.h; sourceTree = "<group>"; };
+		449F2BF71AB1FFDE00560CEA /* DYNPassThroughView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYNPassThroughView.m; sourceTree = "<group>"; };
+		449F2C1F1AB2005D00560CEA /* PrefixHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = SOURCE_ROOT; };
+		6003F58A195388D20070C39A /* DynUIFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynUIFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F5AE195388D20070C39A /* DynUIFramework.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynUIFramework.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		A7A49D758B1F3C2165C88952 /* DynUIFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DynUIFramework.podspec; path = ../DynUIFramework.podspec; sourceTree = "<group>"; };
+		C3A56508AEA3A8427B52033F /* Pods-DynUIFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynUIFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynUIFramework/Pods-DynUIFramework.release.xcconfig"; sourceTree = "<group>"; };
+		D0AD22F1A62AFFC473F8AD50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D174101F2959C51FEE34BA05 /* libPods-DynUIFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DynUIFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33809A3FD1B1CB93036698 /* Pods-DynUIFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynUIFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynUIFramework/Pods-DynUIFramework.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				E589842E858764E161ED1ADE /* libPods-DynUIFramework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		449F2BA21AB1FFDE00560CEA /* DynUIFramework */ = {
+			isa = PBXGroup;
+			children = (
+				449F2C1F1AB2005D00560CEA /* PrefixHeader.h */,
+				449F2BA31AB1FFDE00560CEA /* Categories */,
+				449F2BBC1AB1FFDE00560CEA /* DYNDefines.h */,
+				449F2BBD1AB1FFDE00560CEA /* DYNManager.h */,
+				449F2BBE1AB1FFDE00560CEA /* DYNManager.m */,
+				449F2BBF1AB1FFDE00560CEA /* DYNRenderer.h */,
+				449F2BC01AB1FFDE00560CEA /* DYNRenderer.m */,
+				449F2BC11AB1FFDE00560CEA /* DynUI.h */,
+				449F2BC21AB1FFDE00560CEA /* DynUIFramework.h */,
+				449F2BC31AB1FFDE00560CEA /* External */,
+				449F2BCE1AB1FFDE00560CEA /* Info.plist */,
+				449F2BD01AB1FFDE00560CEA /* Resources */,
+				449F2BD21AB1FFDE00560CEA /* Styles */,
+				449F2BEB1AB1FFDE00560CEA /* Tools */,
+			);
+			name = DynUIFramework;
+			path = ../Pod/Classes/DynUIFramework;
+			sourceTree = "<group>";
+		};
+		449F2BA31AB1FFDE00560CEA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				449F2BA41AB1FFDE00560CEA /* NSObject+DynUI.h */,
+				449F2BA51AB1FFDE00560CEA /* NSObject+DynUI.m */,
+				449F2BA61AB1FFDE00560CEA /* NSString+DynUI.h */,
+				449F2BA71AB1FFDE00560CEA /* NSString+DynUI.m */,
+				449F2BA81AB1FFDE00560CEA /* UIBezierPath+DynUI.h */,
+				449F2BA91AB1FFDE00560CEA /* UIBezierPath+DynUI.m */,
+				449F2BAA1AB1FFDE00560CEA /* UIColor+DynUI.h */,
+				449F2BAB1AB1FFDE00560CEA /* UIColor+DynUI.m */,
+				449F2BAC1AB1FFDE00560CEA /* UIImage+DynUI.h */,
+				449F2BAD1AB1FFDE00560CEA /* UIImage+DynUI.m */,
+				449F2BAE1AB1FFDE00560CEA /* UILabel+DynUI.h */,
+				449F2BAF1AB1FFDE00560CEA /* UILabel+DynUI.m */,
+				449F2BB01AB1FFDE00560CEA /* UINavigationBar+DynUI.h */,
+				449F2BB11AB1FFDE00560CEA /* UINavigationBar+DynUI.m */,
+				449F2BB21AB1FFDE00560CEA /* UIPopoverController+DynUI.h */,
+				449F2BB31AB1FFDE00560CEA /* UIPopoverController+DynUI.m */,
+				449F2BB41AB1FFDE00560CEA /* UITableView+DynUI.h */,
+				449F2BB51AB1FFDE00560CEA /* UITableView+DynUI.m */,
+				449F2BB61AB1FFDE00560CEA /* UITableViewCell+DynUI.h */,
+				449F2BB71AB1FFDE00560CEA /* UITableViewCell+DynUI.m */,
+				449F2BB81AB1FFDE00560CEA /* UITextField+DynUI.h */,
+				449F2BB91AB1FFDE00560CEA /* UITextField+DynUI.m */,
+				449F2BBA1AB1FFDE00560CEA /* UIView+DynUI.h */,
+				449F2BBB1AB1FFDE00560CEA /* UIView+DynUI.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		449F2BC31AB1FFDE00560CEA /* External */ = {
+			isa = PBXGroup;
+			children = (
+				449F2BC41AB1FFDE00560CEA /* JRSwizzle.h */,
+				449F2BC51AB1FFDE00560CEA /* JRSwizzle.m */,
+				449F2BC61AB1FFDE00560CEA /* KGNoise.h */,
+				449F2BC71AB1FFDE00560CEA /* KGNoise.m */,
+				449F2BC81AB1FFDE00560CEA /* UIBezierPath+SVG.h */,
+				449F2BC91AB1FFDE00560CEA /* UIBezierPath+SVG.m */,
+				449F2BCA1AB1FFDE00560CEA /* UIImage+ImageEffects.h */,
+				449F2BCB1AB1FFDE00560CEA /* UIImage+ImageEffects.m */,
+				449F2BCC1AB1FFDE00560CEA /* UIView+DPTools.h */,
+				449F2BCD1AB1FFDE00560CEA /* UIView+DPTools.m */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		449F2BD01AB1FFDE00560CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				449F2BD11AB1FFDE00560CEA /* icons.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		449F2BD21AB1FFDE00560CEA /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				449F2BD31AB1FFDE00560CEA /* DYNBackgroundStyle.h */,
+				449F2BD41AB1FFDE00560CEA /* DYNBackgroundStyle.m */,
+				449F2BD51AB1FFDE00560CEA /* DYNColor.h */,
+				449F2BD61AB1FFDE00560CEA /* DYNColor.m */,
+				449F2BD71AB1FFDE00560CEA /* DYNControlStyle.h */,
+				449F2BD81AB1FFDE00560CEA /* DYNControlStyle.m */,
+				449F2BD91AB1FFDE00560CEA /* DYNImageStyle.h */,
+				449F2BDA1AB1FFDE00560CEA /* DYNImageStyle.m */,
+				449F2BDB1AB1FFDE00560CEA /* DYNInnerBorderStyle.h */,
+				449F2BDC1AB1FFDE00560CEA /* DYNInnerBorderStyle.m */,
+				449F2BDD1AB1FFDE00560CEA /* DYNPopoverStyle.h */,
+				449F2BDE1AB1FFDE00560CEA /* DYNPopoverStyle.m */,
+				449F2BDF1AB1FFDE00560CEA /* DYNShadowStyle.h */,
+				449F2BE01AB1FFDE00560CEA /* DYNShadowStyle.m */,
+				449F2BE11AB1FFDE00560CEA /* DYNSliderStyle.h */,
+				449F2BE21AB1FFDE00560CEA /* DYNSliderStyle.m */,
+				449F2BE31AB1FFDE00560CEA /* DYNStyle.h */,
+				449F2BE41AB1FFDE00560CEA /* DYNStyle.m */,
+				449F2BE51AB1FFDE00560CEA /* DYNStyleParameters.h */,
+				449F2BE61AB1FFDE00560CEA /* DYNStyleParameters.m */,
+				449F2BE71AB1FFDE00560CEA /* DYNTextStyle.h */,
+				449F2BE81AB1FFDE00560CEA /* DYNTextStyle.m */,
+				449F2BE91AB1FFDE00560CEA /* DYNViewStyle.h */,
+				449F2BEA1AB1FFDE00560CEA /* DYNViewStyle.m */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		449F2BEB1AB1FFDE00560CEA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				449F2BEC1AB1FFDE00560CEA /* DYNBlurredView.h */,
+				449F2BED1AB1FFDE00560CEA /* DYNBlurredView.m */,
+				449F2BEE1AB1FFDE00560CEA /* DYNCustomSetting.h */,
+				449F2BEF1AB1FFDE00560CEA /* DYNCustomSetting.m */,
+				449F2BF01AB1FFDE00560CEA /* DYNGradient.h */,
+				449F2BF11AB1FFDE00560CEA /* DYNGradient.m */,
+				449F2BF21AB1FFDE00560CEA /* DYNIcons.h */,
+				449F2BF31AB1FFDE00560CEA /* DYNIcons.m */,
+				449F2BF41AB1FFDE00560CEA /* DYNInsets.h */,
+				449F2BF51AB1FFDE00560CEA /* DYNInsets.m */,
+				449F2BF61AB1FFDE00560CEA /* DYNPassThroughView.h */,
+				449F2BF71AB1FFDE00560CEA /* DYNPassThroughView.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				449F2BA21AB1FFDE00560CEA /* DynUIFramework */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				7EB9410C32D06144A2A5A21F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* DynUIFramework.app */,
+				6003F5AE195388D20070C39A /* DynUIFramework.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				D174101F2959C51FEE34BA05 /* libPods-DynUIFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				A7A49D758B1F3C2165C88952 /* DynUIFramework.podspec */,
+				16A502374EB076EA8BF7F30E /* README.md */,
+				D0AD22F1A62AFFC473F8AD50 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		7EB9410C32D06144A2A5A21F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC33809A3FD1B1CB93036698 /* Pods-DynUIFramework.debug.xcconfig */,
+				C3A56508AEA3A8427B52033F /* Pods-DynUIFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F5AD195388D20070C39A /* DynUIFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DynUIFramework" */;
+			buildPhases = (
+				8706CAB668B3A925BF93EBB7 /* Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				462DD0FAF1DCA2D7DDEDD473 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynUIFramework;
+			productName = DynUIFrameworkTests;
+			productReference = 6003F5AE195388D20070C39A /* DynUIFramework.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DYN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel Pourhadi";
+				TargetAttributes = {
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "DynUIFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F5AD195388D20070C39A /* DynUIFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449F2C0C1AB1FFDE00560CEA /* icons.json in Resources */,
+				449F2C0B1AB1FFDE00560CEA /* Info.plist in Resources */,
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		462DD0FAF1DCA2D7DDEDD473 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynUIFramework/Pods-DynUIFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8706CAB668B3A925BF93EBB7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449F2C191AB1FFDE00560CEA /* DYNBlurredView.m in Sources */,
+				449F2C1A1AB1FFDE00560CEA /* DYNCustomSetting.m in Sources */,
+				449F2C181AB1FFDE00560CEA /* DYNViewStyle.m in Sources */,
+				449F2C081AB1FFDE00560CEA /* UIBezierPath+SVG.m in Sources */,
+				449F2C161AB1FFDE00560CEA /* DYNStyleParameters.m in Sources */,
+				449F2C031AB1FFDE00560CEA /* UIView+DynUI.m in Sources */,
+				449F2C091AB1FFDE00560CEA /* UIImage+ImageEffects.m in Sources */,
+				449F2C0D1AB1FFDE00560CEA /* DYNBackgroundStyle.m in Sources */,
+				449F2C021AB1FFDE00560CEA /* UITextField+DynUI.m in Sources */,
+				449F2C0F1AB1FFDE00560CEA /* DYNControlStyle.m in Sources */,
+				449F2BFE1AB1FFDE00560CEA /* UINavigationBar+DynUI.m in Sources */,
+				449F2BF81AB1FFDE00560CEA /* NSObject+DynUI.m in Sources */,
+				449F2C101AB1FFDE00560CEA /* DYNImageStyle.m in Sources */,
+				449F2BFD1AB1FFDE00560CEA /* UILabel+DynUI.m in Sources */,
+				449F2C0A1AB1FFDE00560CEA /* UIView+DPTools.m in Sources */,
+				449F2C071AB1FFDE00560CEA /* KGNoise.m in Sources */,
+				449F2BF91AB1FFDE00560CEA /* NSString+DynUI.m in Sources */,
+				449F2C041AB1FFDE00560CEA /* DYNManager.m in Sources */,
+				449F2C171AB1FFDE00560CEA /* DYNTextStyle.m in Sources */,
+				449F2C0E1AB1FFDE00560CEA /* DYNColor.m in Sources */,
+				449F2BFC1AB1FFDE00560CEA /* UIImage+DynUI.m in Sources */,
+				449F2BFA1AB1FFDE00560CEA /* UIBezierPath+DynUI.m in Sources */,
+				449F2C061AB1FFDE00560CEA /* JRSwizzle.m in Sources */,
+				449F2C121AB1FFDE00560CEA /* DYNPopoverStyle.m in Sources */,
+				449F2C131AB1FFDE00560CEA /* DYNShadowStyle.m in Sources */,
+				449F2BFF1AB1FFDE00560CEA /* UIPopoverController+DynUI.m in Sources */,
+				449F2C141AB1FFDE00560CEA /* DYNSliderStyle.m in Sources */,
+				449F2C1C1AB1FFDE00560CEA /* DYNIcons.m in Sources */,
+				449F2C1E1AB1FFDE00560CEA /* DYNPassThroughView.m in Sources */,
+				449F2C011AB1FFDE00560CEA /* UITableViewCell+DynUI.m in Sources */,
+				449F2C151AB1FFDE00560CEA /* DYNStyle.m in Sources */,
+				449F2C111AB1FFDE00560CEA /* DYNInnerBorderStyle.m in Sources */,
+				449F2BFB1AB1FFDE00560CEA /* UIColor+DynUI.m in Sources */,
+				449F2C1B1AB1FFDE00560CEA /* DYNGradient.m in Sources */,
+				449F2C001AB1FFDE00560CEA /* UITableView+DynUI.m in Sources */,
+				449F2C051AB1FFDE00560CEA /* DYNRenderer.m in Sources */,
+				449F2C1D1AB1FFDE00560CEA /* DYNInsets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC33809A3FD1B1CB93036698 /* Pods-DynUIFramework.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.h;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A56508AEA3A8427B52033F /* Pods-DynUIFramework.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.h;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "DynUIFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DynUIFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

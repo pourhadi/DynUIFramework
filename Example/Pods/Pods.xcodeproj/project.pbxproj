@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75BFBD95F6301F3EEBB6CAAB /* Pods-DynUIFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB201067C1E5BCF3C776031B /* Pods-DynUIFramework-dummy.m */; };
+		DB06CAEFA45885AAF65DD912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D773CCC47FEE8A72B830496 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4D4F8BD88D43BA2BDDAA3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193CC5732B51C72124768A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90402CEB419A10B3DFB35D1A;
+			remoteInfo = "Pods-DynUIFramework-DynUIFramework-DynUIFramework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006FDC7E85C4521E556D2EC9 /* Pods-DynUIFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynUIFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BEBCB801326B341E75DF8C9 /* Pods-DynUIFramework-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynUIFramework-resources.sh"; sourceTree = "<group>"; };
+		0CF3E151022057B1B1D5B73A /* libPods-DynUIFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DynUIFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D773CCC47FEE8A72B830496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1E617488F2172BB8AF8EA50B /* Pods-DynUIFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynUIFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		76A3D0BEEC905D85443FAFF9 /* DynUIFramework.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynUIFramework.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		848EF987567715822BBB4961 /* Pods-DynUIFramework-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynUIFramework-environment.h"; sourceTree = "<group>"; };
+		9A98BC70FF6BBE389D5FBA4D /* Pods-DynUIFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynUIFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E1BCE4B6A6F0F63F78E98B6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D18B669CBF573A10B9068256 /* Pods-DynUIFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynUIFramework.release.xcconfig"; sourceTree = "<group>"; };
+		EB201067C1E5BCF3C776031B /* Pods-DynUIFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynUIFramework-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C54DEDDF48959C34FB80AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB06CAEFA45885AAF65DD912 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F88191F4777B21270C0D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016C957F97902E755C72525A /* DynUIFramework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DynUIFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		48F83FFD44AA832A93D896DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B77FA224628EF0EDED0E38F8 /* Pods-DynUIFramework */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		501595B5A67A42B594117296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E62D94F5E8DAC937631384F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79DB535FF0E367D28E9A0F5F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				016C957F97902E755C72525A /* DynUIFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7E62D94F5E8DAC937631384F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D773CCC47FEE8A72B830496 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		90B9FB82A2638C41054CC076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A3D0BEEC905D85443FAFF9 /* DynUIFramework.bundle */,
+				0CF3E151022057B1B1D5B73A /* libPods-DynUIFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B77FA224628EF0EDED0E38F8 /* Pods-DynUIFramework */ = {
+			isa = PBXGroup;
+			children = (
+				9A98BC70FF6BBE389D5FBA4D /* Pods-DynUIFramework-acknowledgements.markdown */,
+				006FDC7E85C4521E556D2EC9 /* Pods-DynUIFramework-acknowledgements.plist */,
+				EB201067C1E5BCF3C776031B /* Pods-DynUIFramework-dummy.m */,
+				848EF987567715822BBB4961 /* Pods-DynUIFramework-environment.h */,
+				0BEBCB801326B341E75DF8C9 /* Pods-DynUIFramework-resources.sh */,
+				1E617488F2172BB8AF8EA50B /* Pods-DynUIFramework.debug.xcconfig */,
+				D18B669CBF573A10B9068256 /* Pods-DynUIFramework.release.xcconfig */,
+			);
+			name = "Pods-DynUIFramework";
+			path = "Target Support Files/Pods-DynUIFramework";
+			sourceTree = "<group>";
+		};
+		C4031FBF07443A11787CBDF6 = {
+			isa = PBXGroup;
+			children = (
+				9E1BCE4B6A6F0F63F78E98B6 /* Podfile */,
+				79DB535FF0E367D28E9A0F5F /* Development Pods */,
+				501595B5A67A42B594117296 /* Frameworks */,
+				90B9FB82A2638C41054CC076 /* Products */,
+				48F83FFD44AA832A93D896DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5276E016307A382F4C12B624 /* Pods-DynUIFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F51445FA0EB50CF438D5108 /* Build configuration list for PBXNativeTarget "Pods-DynUIFramework" */;
+			buildPhases = (
+				8CBFD2370BEE2DC9CCD28989 /* Sources */,
+				40C54DEDDF48959C34FB80AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8D7BDEA15C56792AD6863F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-DynUIFramework";
+			productName = "Pods-DynUIFramework";
+			productReference = 0CF3E151022057B1B1D5B73A /* libPods-DynUIFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		90402CEB419A10B3DFB35D1A /* Pods-DynUIFramework-DynUIFramework-DynUIFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE41A455DC36AC87D17B9CEA /* Build configuration list for PBXNativeTarget "Pods-DynUIFramework-DynUIFramework-DynUIFramework" */;
+			buildPhases = (
+				BE3A516B2988009D1912F2D6 /* Sources */,
+				C1F88191F4777B21270C0D1E /* Frameworks */,
+				1B7C46375F93A548A80F0DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DynUIFramework-DynUIFramework-DynUIFramework";
+			productName = "Pods-DynUIFramework-DynUIFramework-DynUIFramework";
+			productReference = 76A3D0BEEC905D85443FAFF9 /* DynUIFramework.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		193CC5732B51C72124768A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 3C10DF2C89D91901590D4DB3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4031FBF07443A11787CBDF6;
+			productRefGroup = 90B9FB82A2638C41054CC076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5276E016307A382F4C12B624 /* Pods-DynUIFramework */,
+				90402CEB419A10B3DFB35D1A /* Pods-DynUIFramework-DynUIFramework-DynUIFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B7C46375F93A548A80F0DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CBFD2370BEE2DC9CCD28989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BFBD95F6301F3EEBB6CAAB /* Pods-DynUIFramework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3A516B2988009D1912F2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8D7BDEA15C56792AD6863F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DynUIFramework-DynUIFramework-DynUIFramework";
+			target = 90402CEB419A10B3DFB35D1A /* Pods-DynUIFramework-DynUIFramework-DynUIFramework */;
+			targetProxy = C4D4F8BD88D43BA2BDDAA3C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		070DF8F18FAC9280F7603ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18B669CBF573A10B9068256 /* Pods-DynUIFramework.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2328980F51974C1022D322FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4DAED611D657210A12CC57F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E617488F2172BB8AF8EA50B /* Pods-DynUIFramework.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8083BF8EF42B51BFF59F2CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C70E0E1C9DE10C62AB0A8C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DynUIFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E9F4233AEB53B7FDF480A5B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DynUIFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F51445FA0EB50CF438D5108 /* Build configuration list for PBXNativeTarget "Pods-DynUIFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAED611D657210A12CC57F0 /* Debug */,
+				070DF8F18FAC9280F7603ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C10DF2C89D91901590D4DB3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2328980F51974C1022D322FC /* Debug */,
+				8083BF8EF42B51BFF59F2CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE41A455DC36AC87D17B9CEA /* Build configuration list for PBXNativeTarget "Pods-DynUIFramework-DynUIFramework-DynUIFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70E0E1C9DE10C62AB0A8C30 /* Debug */,
+				E9F4233AEB53B7FDF480A5B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 193CC5732B51C72124768A6D /* Project object */;
+}
